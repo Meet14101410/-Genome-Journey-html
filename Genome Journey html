@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Genome Journey</title>
+</head>
+<body style="text-align:center;font-family:Arial;background:#dff6ff;">
+
+  <h1>🧬 Genome Journey</h1>
+  <p>Explore the world of DNA and genes!</p>
+
+  <button onclick="startGame()">Start Game</button>
+
+  <script>
+    function startGame() {
+      alert("Welcome to Genome Journey!");
+    }
+  </script>
+
+</body>
+</html>
