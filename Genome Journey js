@@ -1,0 +1,14 @@
+function startGame() {
+  let score = 0;
+
+  let answer = prompt("DNA stands for?");
+
+  if(answer.toLowerCase() === "deoxyribonucleic acid"){
+    score++;
+    alert("Correct! 🧬");
+  } else {
+    alert("Wrong Answer!");
+  }
+
+  alert("Your Score: " + score);
+}
